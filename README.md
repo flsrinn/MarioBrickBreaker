@@ -1,20 +1,20 @@
 # MarioBrickBreaker
 
 ## gamePlayer 패키지
-벽돌 깨기 게임을 플레이할 수 있는 프로그램입니다. <br> 
+벽돌 깨기 게임을 플레이할 수 있는 프로그램 <br> 
 
 <img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/92bea331-16bf-4598-accb-5cf060d490d6" width="600" height="400"> <br>
 ### 게임 메인 화면
 <img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/96770884-8c05-49c3-aec5-08026c8cb250" width="600" height="400">
 <img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/a387baba-4f2c-4aa9-9df3-a0e54476cf63" width="600" height="400"> <br>
-벽돌에 쓰인 숫자만큼 공으로 맞춰 깨는 게임입니다. <br>
+벽돌에 쓰인 숫자만큼 공으로 맞춰 깨는 게임 <br>
 ⚪ : 1단계 벽돌 <br>
 🔵 : 2단계 벽돌 <br>
 🟢 : 3단계 벽돌 <br>
 🟣 : 4단계 벽돌 <br>
 🔴 : 미스터리 벽돌 <br>
 ✖️ : 숫자가 없는 벽돌 = 깨지지 않는 벽돌 <br>
-높은 단계 벽돌일 수록 높은 숫자가 나옵니다.<br>
+높은 단계 벽돌일 수록 높은 숫자가 나옴 <br>
 
 
 ### 메뉴바 설명 
@@ -42,7 +42,7 @@ Open: XML 파일을 오픈하여 맵을 변경할 수 있음<br>
 <img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/da71e125-7f3f-494d-9380-61d533fd59d1" width="600" height="400"> <br>
 block5.xml을 선택했을 때<br>
 
-상단 메뉴바에서 **Game->Play 버튼**을 눌러야 게임을 진행할 수 있습니다.
+상단 메뉴바에서 **Game->Play 버튼**을 눌러야 게임을 진행할 수 있다.
 
 **a** 또는 **d** 버튼을 눌러 공을 왼쪽 또는 오른쪽으로 발사 <br>
 발사된 공은 대각선 방향으로 움직이고, 블록 또는 벽에 맞을 경우 방향 전환 <br>
@@ -73,8 +73,64 @@ block5.xml을 선택했을 때<br>
 <img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/4e9d928f-6558-446d-941c-44c723b465b4" width="600" height="400"> <br>
 벽돌에서 얻은 아이템의 수로 최종 점수를 나타낸다. <br>
 RESTART 버튼을 누르면 재시작 가능 <br> 
-
+### 게임 오버 화면
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/8562cb86-8821-4244-926c-0aa39b702ab0" width="600" height="400"> <br>
+RESTART 버튼을 누르면 재시작 가능 <br> 
 
 ## gameTool 패키지
-게임의 기본 틀이 되는 XML 파일을 제작하는 프로그램입니다. 
+게임의 기본 틀이 되는 XML 파일을 제작하는 프로그램  <br>
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/d9475c72-cba7-4525-a205-2b181ecea023" width="600" height="400"> <br>
+title에서 마우스의 현재 좌표 확인 <br>
+원하는 벽돌/아이템을 선택해서 원하는 곳에 왼클릭하면 배치 가능 <br>
+아이템의 왼쪽 하단 모서리를 드래그해서 크기 조정 가능 <br>
+아이템을 드래그하면 위치 이동 가능
 
+### 공 설정
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/299da3af-52c2-458b-aa95-d508000891cc" width="400" height="300"> <br>
+BALL 버튼을 눌러 공의 속성을 설정할 수 있다. <br>
+
+### 생명 개수 설정
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/0cec2999-6ca8-4a84-b8c4-91b10453a4bb" width="300" height="150"> <br>
+LIFE 버튼을 눌러 생명의 개수를 설정할 수 있다. <br>
+
+### 메뉴바 설명 
+
+#### 벽돌 메뉴
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/76a596ac-8a7f-4bd4-a04d-88b34372ddf1" width="600" height="400"> <br>
+벽돌을 우클릭으로 2번 클릭하면 메뉴가 나타남
+Type : 벽돌 레벨이나 미스터리 블록, 깨지지 않는 블록으로 설정 가능 <br>
+Copy : 해당 벽돌 속성, 크기 등을 클립보드에 복사하고 <br>
+원하는 곳에 우클릭 한 번을 하면 붙여넣기
+Image : 벽돌 이미지 변경 <br>
+Delete : 벽돌 삭제 <br>
+
+
+#### Edit 메뉴
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/c32afc14-4ddf-42c3-a871-8ddae2b50387" width="600" height="400"> <br>
+Undo : 가장 직전에 배치된 아이템 삭제 <br>
+Resize : 창 사이즈 변경  <br>
+Reset : 모든 아이템 삭제 <br> 
+
+#### Music 메뉴
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/b414f0cc-a39c-465b-ab7b-40f1aa61feb8" width="600" height="400"> <br>
+Setting : 배경 음악, 효과 설정<br>
+
+#### Image 메뉴
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/c678b2d1-12ad-47d5-8700-802396921716" width="600" height="400"> <br>
+Change : 블록 이미지, 배경 사진 변경 <br>
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/c02c6e8c-b7fc-4648-811b-aba45e623137" width="400" height="300"> <br>
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/9396fc5c-a721-4f6e-99af-04ae8ae3c092" width="600" height="400"> <br>
+적용 화면
+
+#### File 메뉴
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/c5eeded6-d841-4172-b898-8e065b1c195d" width="600" height="400"> <br>
+Save : 기본 파일명으로 저장 (바로 직전에 저장된 숫자 다음 수로 저장) <br>
+ex) block3.xml까지 저장되었을 경우, block4.xml로 저장<br>
+Save As : 파일 이름을 지정해서 저장<br>
+Load : 저장된 XML 파일을 불러와 수정<br>
+게임 플레이의 필수 요소인 벽돌, 패들, 대포를 무조건 하나 이상 배치해야 저장 가능<br>
+**단 패들과 대포는 하나만 배치 가능하고, 2개 이상 배치할 경우 경고 메세지가 출력되며 배치 불가함.** <br>
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/6e6f4ad0-67f0-4c25-b21f-dfff20a90309" width="600" height="400"> <br>
+<img src="https://github.com/flsrinn/MarioBrickBreaker/assets/123474937/df5eb5ba-43ce-4cd0-95e6-3ce43c4ed1cc" width="500" height="400"> <br>
+
+Save As를 통해 저장된 hello.xml 파일 
