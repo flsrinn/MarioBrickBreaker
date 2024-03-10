@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="euc-kr" ?> 
+<BlockBreakGame>
+<GameScreen>
+	<ScreenSize w="800" h="600"/>
+</GameScreen>
+<StartPanel>
+	<Background>
+		<BgImg>background/background2.png</BgImg>
+		<Music>audio/start.wav</Music>
+	</Background>
+</StartPanel>
+<GamePanel>
+	<Background>
+		<BgImg>background/background2.png</BgImg>
+		<Music>audio/themesong.wav</Music>
+	</Background>
+	<Block>
+		<Obj x="76" y="143" w="50" h="50" type="5" img="block/mysteryBlock.png"/>
+		<Obj x="308" y="80" w="50" h="50" type="1" img="block/block.png"/>
+		<Obj x="517" y="248" w="50" h="50" type="6" img="block/unBlock.png"/>
+		<Obj x="260" y="194" w="50" h="50" type="1" img="block/block.png"/>
+		<Obj x="142" y="289" w="50" h="50" type="6" img="block/unBlock.png"/>
+		<Obj x="194" y="108" w="70" h="40" type="1" img="block/block.png"/>
+		<Obj x="340" y="335" w="70" h="40" type="1" img="block/block.png"/>
+		<Obj x="76" y="368" w="70" h="40" type="2" img="block/block.png"/>
+	</Block>
+	<Player>
+		<Ball>
+			<Obj size="2" balls="2" speed="3" img="player/shell.png"/>
+		</Ball>
+		<Paddle>
+			<Obj x="261" y="440" w="50" h="50" img="player/paddle.png"/>
+		</Paddle>
+		<Shooter>
+			<Obj x="479" y="495" w="50" h="50" img="player/shooter.png"/>
+		</Shooter>
+		<Bullet>
+			<Obj w="60" h="40" img="bullet.png"/>
+		</Bullet>
+	</Player>
+</GamePanel>
+<ScorePanel>
+	<Life>
+		<Music>audio/</Music>
+		<Heart>
+			<Obj life="5" img="item/heart.png"/>
+		</Heart>
+	</Life>
+</ScorePanel>
+<ItemPanel>
+	<Background>
+		<BgImg>background/animalBackground.png</BgImg>
+	</Background>
+</ItemPanel>
+<GameOverPanel>
+	<Background>
+		<BgImg>background/background2.png</BgImg>
+		<Music>audio/gameover.wav</Music>
+	</Background>
+</GameOverPanel>
+<GameClearPanel>
+	<Background>
+		<BgImg>background/background2.png</BgImg>
+		<Music>audio/gameclear.wav</Music>
+	</Background>
+</GameClearPanel>
+</BlockBreakGame>

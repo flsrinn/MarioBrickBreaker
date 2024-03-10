@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="euc-kr" ?> 
+<BlockBreakGame>
+<GameScreen>
+	<ScreenSize w="800" h="600"/>
+</GameScreen>
+<StartPanel>
+	<Background>
+		<BgImg>background/background1.png</BgImg>
+		<Music>audio/gameclear.wav</Music>
+	</Background>
+</StartPanel>
+<GamePanel>
+	<Background>
+		<BgImg>background/background1.png</BgImg>
+		<Music>audio/themesong.wav</Music>
+	</Background>
+	<Block>
+		<Obj x="318" y="169" w="50" h="50" type="5" img="block/mysteryBlock.png"/>
+		<Obj x="566" y="66" w="60" h="30" type="3" img="block/block.png"/>
+		<Obj x="166" y="145" w="50" h="50" type="6" img="block/unBlock.png"/>
+	</Block>
+	<Player>
+		<Ball>
+			<Obj size="2" balls="3" speed="3" img="player/shell.png"/>
+		</Ball>
+		<Paddle>
+			<Obj x="266" y="451" w="50" h="50" img="player/paddle.png"/>
+		</Paddle>
+		<Shooter>
+			<Obj x="421" y="484" w="50" h="50" img="player/shooter.png"/>
+		</Shooter>
+		<Bullet>
+			<Obj w="60" h="40" img="player/bullet.png"/>
+		</Bullet>
+	</Player>
+</GamePanel>
+<ScorePanel>
+	<Life>
+		<Music>audio/</Music>
+		<Heart>
+			<Obj life="5" img="item/heart.png"/>
+		</Heart>
+	</Life>
+</ScorePanel>
+<ItemPanel>
+	<Background>
+		<BgImg>background/animalBackground.png</BgImg>
+	</Background>
+</ItemPanel>
+<GameOverPanel>
+	<Background>
+		<BgImg>background/background1.png</BgImg>
+		<Music>audio/gameover.wav</Music>
+	</Background>
+</GameOverPanel>
+<GameClearPanel>
+	<Background>
+		<BgImg>background/background1.png</BgImg>
+		<Music>audio/gameclear.wav</Music>
+	</Background>
+</GameClearPanel>
+</BlockBreakGame>
